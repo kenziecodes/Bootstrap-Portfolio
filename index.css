@@ -1,0 +1,26 @@
+.lead {
+    float: left;
+}
+
+.jumbotron {
+    background-color: steelblue;
+}
+
+@media screen and (max-width: 640px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .column {
+        flex: 50%;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 980px) {
+    .column {
+        flex: 60%;
+        max-width: 80%;
+    }
+}
